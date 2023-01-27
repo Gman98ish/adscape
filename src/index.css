@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes scroll-animation {
+@keyframes scroll {
     0% {
       transform: translateX(0%);
     }

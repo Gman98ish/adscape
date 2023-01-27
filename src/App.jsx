@@ -6,7 +6,7 @@ const HatsuneNiku = props => <div className="border-2 border-yellow-300 rounded 
 </div>
 
 const Scroller = props => <div className={`w-full overflow-hidden ${props.className}`}>
-  <div className="w-full flex animate-[scroll-animation_30s_linear_infinite]">
+  <div className="w-full flex animate-[scroll_30s_linear_infinite]">
     {[1,2].map(i => <div key={i} className="pr-20 box-border min-w-full flex justify-between">
       {props.children}
     </div>)}
