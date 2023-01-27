@@ -21,7 +21,7 @@ const DrBobert = props => <div className="text-white font-chakra max-w-[350px] w
 </div>
 
 const Scroller = props => <div className={`w-full overflow-hidden ${props.className}`}>
-  <div className="flex animate-[scroll_10s_linear_infinite] w-fit md:w-full" style={{transformBox: 'content-box'}}>
+  <div className="flex md:animate-[scroll_30s_linear_infinite] w-fit md:w-full" style={{transformBox: 'content-box'}}>
     {[1,2].map(i => <div key={i} className="md:min-w-full min-w-min flex justify-between">
       {props.children}
     </div>)}
