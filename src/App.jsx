@@ -2,7 +2,7 @@ import './App.css'
 
 const HatsuneNiku = props => <div className='min-w-[250px] mx-4 '>
   <div className="border-2 border-yellow-300 rounded p-2 max-height-full">
-    <p className="font-chakra text-yellow-300">Only 30% synthetic meat at</p>
+    <p className="font-chakra text-yellow-300 text-center">Only 30% synthetic meat at</p>
     <h3 className="text-white text-5xl text-center animate-[glow_1s_ease-in-out_infinite_alternate]">ハツネ肉</h3>
   </div>
 </div>
