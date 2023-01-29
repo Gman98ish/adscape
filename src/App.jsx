@@ -1,4 +1,5 @@
 import './App.css'
+import skullUrl from './assets/skull.png'
 
 const HatsuneNiku = props => <div className='min-w-[250px] mx-4 '>
   <div className="border-2 border-yellow-300 rounded p-2 max-height-full">
@@ -54,6 +55,22 @@ const Scroller = props => <div className={`w-full overflow-hidden ${props.classN
   </div>
 </div>
 
+const Cash4Bones = props => <div className='mx-4'>
+  <div className="relative">
+    <div className="z-10 relative">
+      <img src={skullUrl} alt="" height="200px" width="200px" className='absolute z-0 top-2 left-8 animate-ping' />
+      <h2 className="text-4xl font-anton uppercase tracking-wide text-justify text-black my-8 relative z-10"
+        style={{textShadow: '0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073'}}>Too many bones?</h2>
+      <h2 className="text-4xl font-anton uppercase tracking-wide text-justify text-black my-8 relative z-10"
+        style={{textShadow: '0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073'}}>Not enough cash?</h2>
+      <h2 className="text-4xl font-anton uppercase tracking-wide text-justify text-black my-8 relative z-10"
+        style={{textShadow: '0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073'}}>Try cash 4 bones</h2>
+    </div>
+  </div>
+</div>
+
+
+
 function App() {
   return (
     <div className="min-h-screen bg-black pt-8">
@@ -61,6 +78,7 @@ function App() {
         <HatsuneNiku />
         <DrBobert />
         <Coffee />
+        <Cash4Bones />
       </Scroller>
     </div>
   )

@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        chakra: ['Chakra Petch', 'sans-serif']
+        chakra: ['Chakra Petch', 'sans-serif'],
+        anton: ['Anton', 'sans-serif']
       }
     },
   },
