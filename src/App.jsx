@@ -73,7 +73,7 @@ const Cash4Bones = props => <div className='mx-4'>
 
 function App() {
   return (
-    <div className="min-h-screen bg-black pt-8">
+    <div className="min-h-screen bg-black pt-8 transform-gpu">
       <Scroller>
         <HatsuneNiku />
         <DrBobert />
